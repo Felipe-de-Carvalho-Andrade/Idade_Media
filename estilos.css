@@ -1,0 +1,392 @@
+body {
+    background-color: white;
+    margin: 0%;
+    padding: 1em 1%;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    width: 70%;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Merriweather', serif;
+    margin-left: 0%;
+}
+
+p, a, table, ul, ol, footer {
+    font-family: 'Lora', serif;
+    text-align: justify;
+}
+
+p a {
+    text-decoration: none;
+}
+
+aside {
+    border: solid blue 0.1em;
+    background-color: silver;
+    width: 88%;
+    padding: 1%;
+    text-align: center;
+    float: center;
+    margin: auto;
+    margin-bottom: 2em;
+    margin-right: auto;
+    margin-left: left;
+    display: block;
+}
+
+aside a {
+    text-decoration: none;
+    color: red;
+}
+
+aside p {
+    font-size: 0.9em;
+    text-align: center;
+}
+
+aside h2 {
+    font-size: 1.2em;
+}
+
+aside h3 {
+    font-size: 1.0em;
+}
+
+table {
+    text-align: center;
+    margin: auto;
+    border-collapse: collapse;
+    padding: 5em;
+    background-color: white;
+}
+
+thead {
+    border: solid black 0.1em;
+    background-color: goldenrod
+}
+
+tbody {
+    border: solid black 0.1em;
+    background-color: gold;
+}
+
+td, th {
+    padding: 1em 1em;
+    border: solid black 0.1em;
+}
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    display: flex;
+    width: 60%;
+}
+
+header {
+    margin-top: -2.3em;
+    margin-left: -0.85em;
+    margin-right: -0.6em;
+}
+
+header h1, h3 {
+    padding: 0.5em;
+}
+
+footer {
+    margin-bottom: -1.0em;
+    margin-left: -0.85em;
+    padding-right: 1.4em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    display: flex;
+    justify-content: flex-start;
+}
+
+footer p {
+    padding-left: 1em;
+    display: flex;
+    justify-content: flex-start;
+}
+
+a {
+    color: blue;
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    color: rgb(42, 238, 42);
+}
+
+a:active {
+    color: blue;
+}
+
+#fim {
+    padding-bottom: 3em;
+}
+
+/* ESTILOS ESPECÍFICOS PARA INDEX */
+
+#principal {
+    background-color: white;
+}
+
+#subtitulo {
+    opacity: 0.7;
+}
+
+#cabecalho {
+    background-color: black;
+    color: white;
+}
+
+#cabecalho li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 1em;
+}
+
+#cabecalho ul {
+    text-align: center;
+}
+
+#cabecalho a {
+    text-decoration: none;
+    color: white;
+}
+
+#rodape {
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+#rodape a {
+    text-decoration: none;
+    color: red;
+}
+
+#cabecalho li:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: rgba(255, 255, 255, 0.2);
+    transition-duration: 0.5s;
+}
+
+#moderna {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 70%;
+    padding-bottom: 2em;
+}
+
+/* ESTILOS ESPECÍFICOS PARA A PESTE */
+
+#peste {
+    background-color: white;
+}
+
+#peste p, li {
+    color: black;
+}
+
+#cabecalho-peste {
+    background-color: black;
+    color: white;
+}
+
+#cabecalho-peste li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 1em;
+}
+
+#cabecalho-peste li:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: rgba(255, 255, 255, 0.2);
+    transition-duration: 0.5s;
+}
+
+#cabecalho-peste ul {
+    text-align: center;
+}
+
+#cabecalho-peste a {
+    text-decoration: none;
+    color: white;
+    transition: color 600ms linear; 
+}
+
+#cabecalho-peste a:hover {
+    color: red;
+}
+
+#rodape-peste {
+    background-color: black;
+    width: 100%;
+    color: white;
+}
+
+#rodape-peste p {
+    color: white;
+}
+
+#rodape-peste a {
+    text-decoration: none;
+    color: red;
+}
+
+
+/* ESTILOS ESPECÍFICOS PARA AS CRUZADAS */
+
+#cruzadas {
+    background-color: silver;
+}
+
+#cabecalho-cruzadas {
+    background-color: red;
+
+}
+
+#cabecalho-cruzadas li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 1em;
+}
+
+#cabecalho-cruzadas ul {
+    text-align: center;
+}
+
+#cabecalho-cruzadas a {
+    text-decoration: none;
+    color: white;
+    transition: color 600ms linear; 
+}
+
+#cabecalho-cruzadas a:hover {
+    color: gold;
+    cursor: pointer;
+}
+
+#rodape-cruzadas {
+    width: 100%;
+    background-color: red;
+}
+
+#rodape-cruzadas a {
+    text-decoration: none;
+    color: white;
+    transition: color 600ms linear; 
+}
+
+#rodape-cruzadas a:hover {
+    color: gold;
+    cursor: pointer;
+}
+
+.curiosidade::before {
+    content: 'Curiosidade!';
+    border: solid red 0.1em;
+    border-radius: 10%;
+    background-color: red;
+    color: gold;
+    padding: 0.03em;
+}
+
+.curiosidade {
+    padding-bottom: 5px;
+}
+
+/* ESTILOS ESPECÍFICOS PARA A GUERRA */
+
+#guerra {
+    /* background-color: rgb(240, 220, 44); */
+    background-image: linear-gradient( 0deg, yellow, blue );
+    background-repeat: no-repeat;
+}
+
+#cabecalho-guerra {
+    background-color: rgb(64, 64, 243);
+    color: white;
+}
+
+#cabecalho-guerra li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 1em;
+}
+
+#cabecalho-guerra li:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: rgba(255, 255, 255, 0.2);
+    transition-duration: 0.5s;
+}
+
+#cabecalho-guerra ul {
+    text-align: center;
+}
+
+#cabecalho-guerra a {
+    text-decoration: none;
+    color: white;
+    transition: color 400ms linear;
+}
+
+#cabecalho-guerra a:hover {
+    cursor: pointer;
+    color: yellow;
+}
+
+#rodape-guerra {
+    background-color: gold;
+    color: white;
+}
+
+#rodape-guerra a {
+    text-decoration: none;
+    color: blue;
+
+}
+
+/* ESTILOS ESPECÍFICOS PARA CRIADORES */
+
+#cabecalho-criadores li {
+    display: inline-block;
+    list-style-type: none;
+padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    padding-top: 0.0em;
+}
+
+#cabecalho-criadores ul {
+    text-align: center;
+}
+
+#cabecalho-criadores a {
+    text-decoration: none;
+    color: red;
+}
+
+#rodape-criadores a {
+    text-decoration: none;
+    color: red;
+}
