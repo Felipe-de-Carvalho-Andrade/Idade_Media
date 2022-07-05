@@ -14,8 +14,21 @@ img {
     width: 70%;
 }
 
+.curiosidade::before {
+    content: 'Curiosidade!';
+    border: solid red 0.1em;
+    border-radius: 10%;
+    background-color: red;
+    color: gold;
+    padding: 0.03em;
+}
+
+.curiosidade {
+    padding-bottom: 5px;
+}
+
 h1, h2, h3, h4 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Merriweather', serif;
     margin-left: 0%;
 }
 
@@ -299,19 +312,6 @@ a:active {
 #rodape-cruzadas a:hover {
     color: gold;
     cursor: pointer;
-}
-
-.curiosidade::before {
-    content: 'Curiosidade!';
-    border: solid red 0.1em;
-    border-radius: 10%;
-    background-color: red;
-    color: gold;
-    padding: 0.03em;
-}
-
-.curiosidade {
-    padding-bottom: 5px;
 }
 
 /* ESTILOS ESPECÍFICOS PARA A GUERRA */
