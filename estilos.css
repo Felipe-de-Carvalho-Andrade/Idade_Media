@@ -106,6 +106,38 @@ iframe {
     width: 60%;
 }
 
+@media (min-width: 931px) {
+    iframe {
+        width: 60%;
+    }
+
+}
+
+@media (min-width: 651px) and (max-width: 930px) {
+    iframe {
+        width: 68%;
+    }
+
+}
+
+@media (min-width: 431px) and (max-width: 650px) {
+    iframe {
+        width: 86%;
+    }
+}
+
+@media (min-width: 421px) and (max-width: 530px) {
+    iframe {
+        width: 100%;
+    }
+}
+
+@media (max-width: 420px) {
+    iframe {
+        width: 100%;
+    }
+}
+
 header {
     margin-top: -2.3em;
     margin-left: -0.85em;
@@ -150,6 +182,75 @@ a:active {
 
 #fim {
     padding-bottom: 3em;
+}
+
+body p::selection {
+    color: blue;
+    background-color: black;
+}
+
+body li::selection {
+    color: blue;
+    background-color: black;
+}
+
+body strong::selection {
+    color: blue;
+    background-color: black;
+}
+
+body th::selection {
+    color: blue;
+    background-color: black;
+}
+
+body td::selection {
+    color: blue;
+    background-color: black;
+}
+
+body h1::selection {
+    color: blue;
+    background-color: black;
+}
+
+body h2::selection {
+    color: blue;
+    background-color: black;
+}
+
+body h3::selection {
+    color: blue;
+    background-color: black;
+}
+
+body a::selection {
+    color: blue;
+    background-color: black;
+}
+
+header h1::selection {
+    color: gold;
+    background-color: red;
+}
+header h3::selection {
+    color: gold;
+    background-color: red;
+}
+
+header a::selection {
+    color: gold;
+    background-color: red;
+}
+
+header ul::selection {
+    color: gold;
+    background-color: red;
+}
+
+footer p::selection {
+    color: gold;
+    background-color: red;
 }
 
 /* ESTILOS ESPECÍFICOS PARA INDEX */
@@ -274,7 +375,21 @@ a:active {
 
 #cabecalho-cruzadas {
     background-color: red;
+}
 
+#cabecalho-cruzadas h1::selection {
+    color: white;
+    background-color: black;
+}
+
+#cabecalho-cruzadas a::selection {
+    color: white;
+    background-color: black;
+}
+
+#rodape-cruzadas p::selection {
+    color: white;
+    background-color: black;
 }
 
 #cabecalho-cruzadas li {
@@ -368,10 +483,22 @@ a:active {
 
 /* ESTILOS ESPECÍFICOS PARA CRIADORES */
 
+#sobre section:not(#ideia):nth-child(2n){
+    float: left;
+}
+
+#sobre section:not(#ideia):nth-child(2n + 1){
+    float: right;
+}
+
+#sobre section {
+    display: block;
+}
+
 #cabecalho-criadores li {
     display: inline-block;
     list-style-type: none;
-padding-left: 1em;
+    padding-left: 1em;
     padding-right: 1em;
     padding-bottom: 1em;
     padding-top: 0.0em;
