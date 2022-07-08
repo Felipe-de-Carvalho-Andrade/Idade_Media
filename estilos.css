@@ -32,9 +32,26 @@ h1, h2, h3, h4 {
     margin-left: 0%;
 }
 
+header h1 {
+    font-size: 2.5em;
+}
+
+header h3 {
+    font-size: 1.5em;
+}
+
+h1 {
+    font-size: 1.75em;
+}
+
+h2 {
+    font-size: 1.4em;
+}
+
 p, a, table, ul, ol, footer {
     font-family: 'Lora', serif;
     text-align: justify;
+    font-size: 1.1em;
 }
 
 p a {
@@ -61,7 +78,7 @@ aside a {
 }
 
 aside p {
-    font-size: 0.9em;
+    font-size: 1em;
     text-align: center;
 }
 
@@ -106,6 +123,18 @@ iframe {
     width: 60%;
 }
 
+@media (min-width: 1120px) {
+    .curiosidade {
+        display: inline-block;
+        padding-bottom: 5px;
+        transition: aumentando .2s cubic-bezier(.37,1.89,.59,.73);
+      }
+    .curiosidade:hover {
+        transform: scale(1.4);
+        padding-left: 7em;
+    }
+}
+
 @media (min-width: 931px) {
     iframe {
         width: 60%;
@@ -124,11 +153,27 @@ iframe {
     iframe {
         width: 86%;
     }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu ul {
+        flex-direction: column;
+    }
 }
 
 @media (min-width: 421px) and (max-width: 530px) {
     iframe {
         width: 100%;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu ul {
+        flex-direction: column;
     }
 }
 
@@ -136,6 +181,15 @@ iframe {
     iframe {
         width: 100%;
     }
+    
+    #menu {
+        display: flex;
+    }
+
+    #menu ul {
+        flex-direction: column;
+    }
+
 }
 
 header {
@@ -162,6 +216,7 @@ footer p {
     padding-left: 1em;
     display: flex;
     justify-content: flex-start;
+    font-size: 0.95em;
 }
 
 a {
@@ -185,47 +240,47 @@ a:active {
 }
 
 body p::selection {
-    color: blue;
+    color: white;
     background-color: black;
 }
 
 body li::selection {
-    color: blue;
+    color: white;
     background-color: black;
 }
 
 body strong::selection {
-    color: blue;
+    color: white;
     background-color: black;
 }
 
 body th::selection {
-    color: blue;
+    color: white;
     background-color: black;
 }
 
 body td::selection {
-    color: blue;
+    color: white;
     background-color: black;
 }
 
 body h1::selection {
-    color: blue;
+    color: white;
     background-color: black;
 }
 
 body h2::selection {
-    color: blue;
+    color: white;
     background-color: black;
 }
 
 body h3::selection {
-    color: blue;
+    color: white;
     background-color: black;
 }
 
 body a::selection {
-    color: blue;
+    color: white;
     background-color: black;
 }
 
