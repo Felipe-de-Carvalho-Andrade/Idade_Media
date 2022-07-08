@@ -173,6 +173,7 @@ iframe {
     }
 
     #menu ul {
+        display: flex;
         flex-direction: column;
     }
 }
@@ -187,6 +188,7 @@ iframe {
     }
 
     #menu ul {
+        display: flex;
         flex-direction: column;
     }
 
