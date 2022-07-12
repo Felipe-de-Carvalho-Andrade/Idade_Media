@@ -605,11 +605,6 @@ footer p::selection {
     color: white;
 }
 
-#rodape-criadores a {
-    text-decoration: none;
-    color: red;
-}
-
 #fontes {
     float: left;
 }
