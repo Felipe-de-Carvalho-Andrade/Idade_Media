@@ -558,12 +558,16 @@ footer p::selection {
     background-color: white;
 }
 
-.integrantes {
+#sobre .integrantes {
     display: flex;
     justify-content: center;
 }
 
-.integrantes h1, p {
+#sobre .integrantes h1 {
+    text-align: center;
+}
+
+#sobre .integrantes p {
     text-align: center;
 }
 
