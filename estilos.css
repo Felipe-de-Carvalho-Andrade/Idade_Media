@@ -149,6 +149,20 @@ iframe {
 
 }
 
+@media (min-width: 651px) and (max-width: 750px) {
+    #menu {
+        display: flex;
+        justify-content: center;
+    }
+
+    #menu ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}
+
 @media (min-width: 431px) and (max-width: 650px) {
     iframe {
         width: 86%;
@@ -156,10 +170,13 @@ iframe {
 
     #menu {
         display: flex;
+        justify-content: center;
     }
 
     #menu ul {
+        display: flex;
         flex-direction: column;
+        justify-content: center;
     }
 }
 
@@ -170,11 +187,13 @@ iframe {
 
     #menu {
         display: flex;
+        justify-content: center;
     }
 
     #menu ul {
         display: flex;
         flex-direction: column;
+        justify-content: center;
     }
 }
 
@@ -185,11 +204,13 @@ iframe {
     
     #menu {
         display: flex;
+        justify-content: center;
     }
 
     #menu ul {
         display: flex;
         flex-direction: column;
+        justify-content: center;
     }
 
 }
@@ -540,11 +561,11 @@ footer p::selection {
 
 /* ESTILOS ESPECÍFICOS PARA CRIADORES */
 
-#sobre section:not(#ideia):nth-child(2n){
+#sobre section:not(.fontes):nth-child(2n){
     float: left;
 }
 
-#sobre section:not(#ideia):nth-child(2n + 1){
+#sobre section:not(.fontes):nth-child(2n + 1){
     float: right;
 }
 
