@@ -135,13 +135,6 @@ iframe {
     }
 }
 
-@media (min-width: 931px) {
-    iframe {
-        width: 60%;
-    }
-
-}
-
 @media (min-width: 651px) and (max-width: 930px) {
     iframe {
         width: 68%;
@@ -561,16 +554,30 @@ footer p::selection {
 
 /* ESTILOS ESPECÍFICOS PARA CRIADORES */
 
-#sobre section:not(.fontes):nth-child(2n){
-    float: left;
+#sobre {
+    background-color: white;
 }
 
-#sobre section:not(.fontes):nth-child(2n + 1){
-    float: right;
+.integrantes {
+    display: flex;
+    justify-content: center;
+}
+
+.integrantes h1, p {
+    text-align: center;
 }
 
 #sobre section {
     display: block;
+}
+
+#sobre #fontes h2 {
+    text-align: center;
+}
+
+#cabecalho-criadores {
+    background-color: blue;
+    color: white;
 }
 
 #cabecalho-criadores li {
@@ -579,7 +586,14 @@ footer p::selection {
     padding-left: 1em;
     padding-right: 1em;
     padding-bottom: 1em;
-    padding-top: 0.0em;
+    padding-top: 1em;
+}
+
+#cabecalho-criadores li:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: red;
+    transition-duration: 0.5s;
 }
 
 #cabecalho-criadores ul {
@@ -588,10 +602,32 @@ footer p::selection {
 
 #cabecalho-criadores a {
     text-decoration: none;
-    color: red;
+    color: white;
 }
 
 #rodape-criadores a {
     text-decoration: none;
     color: red;
+}
+
+#fontes {
+    float: left;
+}
+
+#fontes li {
+    list-style-type: none;
+}
+
+#fontes a {
+    text-decoration: none;
+    color: red;
+}
+
+#fontes a:hover {
+    text-decoration: underline;
+    color: rgb(42, 238, 42);
+}
+
+#fontes a:active {
+    color: blue;
 }
