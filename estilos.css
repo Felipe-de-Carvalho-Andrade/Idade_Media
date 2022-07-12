@@ -125,11 +125,17 @@ iframe {
     width: 60%;
 }
 
+#sobre .integrantes p {
+    text-align: center;
+    padding-left: 10em;
+    padding-right: 10em;
+}
+
 @media (min-width: 1120px) {
     .curiosidade {
         display: inline-block;
         padding-bottom: 5px;
-        transition: aumentando .2s cubic-bezier(.37,1.89,.59,.73);
+        transition: .2s cubic-bezier(.37,1.89,.59,.73);
       }
     .curiosidade:hover {
         transform: scale(1.4);
@@ -156,6 +162,12 @@ iframe {
         justify-content: center;
     }
 
+    #sobre .integrantes p {
+        text-align: center;
+        padding-left: 5em;
+        padding-right: 5em;
+    }
+
 }
 
 @media (min-width: 431px) and (max-width: 650px) {
@@ -173,11 +185,21 @@ iframe {
         flex-direction: column;
         justify-content: center;
     }
+
+    #sobre .integrantes p {
+        text-align: center;
+        padding-left: 5em;
+        padding-right: 5em;
+    }
 }
 
 @media (min-width: 421px) and (max-width: 530px) {
     iframe {
         width: 100%;
+    }
+
+    table {
+        width: 10em;
     }
 
     #menu {
@@ -190,6 +212,13 @@ iframe {
         flex-direction: column;
         justify-content: center;
     }
+
+    #sobre .integrantes p {
+        text-align: justify;
+        padding-left: 0.1em;
+        padding-right: 0.1em;
+    }
+
 }
 
 @media (max-width: 420px) {
@@ -206,6 +235,12 @@ iframe {
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+
+    #sobre .integrantes p {
+        text-align: justify;
+        padding-left: 0em;
+        padding-right: 0em;
     }
 
 }
@@ -569,12 +604,6 @@ footer p::selection {
     text-align: center;
 }
 
-#sobre .integrantes p {
-    text-align: center;
-    padding-left: 10em;
-    padding-right: 10em;
-}
-
 #sobre section {
     display: block;
 }
@@ -635,7 +664,7 @@ footer p::selection {
     color: blue;
 }
 
-#fotos {
+.foto {
     border-radius: 50%;
     width: 20em;
 }
