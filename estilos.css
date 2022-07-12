@@ -569,6 +569,8 @@ footer p::selection {
 
 #sobre .integrantes p {
     text-align: center;
+    padding-left: 10em;
+    padding-right: 10em;
 }
 
 #sobre section {
@@ -629,4 +631,9 @@ footer p::selection {
 
 #fontes a:active {
     color: blue;
+}
+
+#fotos {
+    border-radius: 50%;
+    width: 20em;
 }
