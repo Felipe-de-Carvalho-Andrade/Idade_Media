@@ -30,6 +30,7 @@ img {
 h1, h2, h3, h4 {
     font-family: 'Poppins', sans-serif;
     margin-left: 0%;
+    font-weight: bolder;
 }
 
 header h1 {
@@ -49,9 +50,10 @@ h2 {
 }
 
 p, a, table, ul, ol, footer {
-    font-family: 'Lora', serif;
+    font-family: 'Poppins', sans-serif;;
     text-align: justify;
     font-size: 1.1em;
+    font-weight: bolder;
 }
 
 p a {
