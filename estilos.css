@@ -96,7 +96,7 @@ table {
     text-align: center;
     margin: auto;
     border-collapse: collapse;
-    padding: 5em;
+    padding: 2em;
     background-color: white;
 }
 
@@ -111,7 +111,7 @@ tbody {
 }
 
 td, th {
-    padding: 1em 1em;
+    padding: 0.3em 0.3em;
     border: solid black 0.1em;
 }
 
@@ -196,10 +196,6 @@ iframe {
 @media (min-width: 421px) and (max-width: 530px) {
     iframe {
         width: 100%;
-    }
-
-    table {
-        width: 10em;
     }
 
     #menu {
@@ -667,4 +663,15 @@ footer p::selection {
 .foto {
     border-radius: 50%;
     width: 20em;
+    position: relative;
+    animation: flutuar 0.5s ease-in-out 0s infinite alternate;
+}
+
+@keyframes flutuar {
+    from {
+        top: 0;
+    }
+    to {
+        top: -1.5em
+    }
 }
