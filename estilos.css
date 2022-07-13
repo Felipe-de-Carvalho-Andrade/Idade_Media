@@ -50,10 +50,9 @@ h2 {
 }
 
 p, a, table, ul, ol, footer {
-    font-family: 'Poppins', sans-serif;;
+    font-family: 'Lora', serif;
     text-align: justify;
     font-size: 1.1em;
-    font-weight: bolder;
 }
 
 p a {
@@ -646,6 +645,11 @@ footer p::selection {
     list-style-type: none;
 }
 
+#fontes h2:hover {
+    color: blue;
+    transition-duration: 0.5s;
+}
+
 #fontes a {
     text-decoration: none;
     color: red;
@@ -674,4 +678,8 @@ footer p::selection {
     to {
         top: -1.5em
     }
+}
+
+.foto:hover {
+    opacity: 0.8;
 }
